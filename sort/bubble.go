@@ -1,4 +1,4 @@
-package main
+package sort
 
 //NOTE HERE we have to move the highest element to right most index and repeat the process
 import "fmt"

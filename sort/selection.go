@@ -1,4 +1,4 @@
-package main
+package sort
 
 //move the smallest element to the left
 //keep on comparing smallest and moving it to the left most index

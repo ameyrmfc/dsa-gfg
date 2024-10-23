@@ -1,10 +1,10 @@
-package main
+package sort
 
 //Divide the array into half , and keep on comparing the array with left and right
 import "fmt"
 
 func main() {
-	arr := []int{10, 6, 2, 3, 1}
+	arr := []int{10, 6, 2, 3, 4, 1}
 	fmt.Println(mergeSort(arr))
 }
 
@@ -18,7 +18,7 @@ func mergeSort(items []int) []int {
 }
 
 func merge(a, b []int) []int {
-	final := []int{}
+	var final []int
 	i := 0
 	j := 0
 	for i < len(a) && j < len(b) {
